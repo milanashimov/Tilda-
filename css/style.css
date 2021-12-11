@@ -1,0 +1,572 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body{
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* === Header === */
+
+header{
+    width: 100%;
+    display: inline-flex;
+}
+
+.LeftHeader{
+    width: 50%;
+    background: url('../Img/Naramata.webp') center / cover  ;
+    height: 600px;
+}
+.LeftHeader h2{
+    cursor: pointer;
+    transition: 500ms;
+    color: black;
+    padding-left: 100px;
+    font-size: 25px;
+}
+.LeftHeader h2:hover{
+    text-shadow: 0px 0px 10px purple, 0px 0px 25px purple, 0px 0px 50px purple;
+}
+
+.RightHeader{
+    width: 40%;
+    margin: 0px;
+    margin-left: auto;
+    text-align: center;
+}
+
+.RightHeader ul{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    list-style: none;
+    width: 100%;
+    display: inline-flex;
+    padding-left: 0px;
+    
+    
+}
+.LiHeader{
+    margin-top: 20px;
+    font-weight: 600;
+    width: 17%;
+    cursor: pointer;
+    transition: 500ms;
+    font-size: 15px;
+    
+}
+.LiHeader:hover{
+    text-shadow: 0px 0px 10px purple, 0px 0px 25px purple, 0px 0px 50px purple;
+}
+
+#Li{
+    margin-top: 10px;
+}
+.BtnHeader{
+    margin-top: 0px;
+    padding: 10px 25px;
+    border: 1px solid black;
+    background-color: transparent;
+    font-weight: 600;
+    cursor: pointer;
+    position: relative;
+}
+
+.BtnHeader::before{
+    content: '';
+    position: absolute;
+    width: 0px;
+    height: 100%;
+    top: 0px;
+    left: 50%;
+    transition: 500ms;
+}
+.BtnHeader:hover:before{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    box-shadow: 0px 0px 10px black,0px 0px 25px black, 0px 0px 50px black;
+}
+.Span{
+    position: relative;
+    transition: 500ms;
+}
+.BtnHeader:hover .Span{
+    color: white;
+    z-index: 5;
+
+}
+
+
+/* ==== Main ==== */
+
+main{
+    width: 100%;
+}
+
+.Article1{
+    text-align: center;
+}
+
+.Container1{
+    width: 100%;
+}
+.Tilda{
+    width: 50%;
+}
+
+.Right{
+    width: 40%;
+    margin: 0px 5%;
+    position: absolute;
+    top: 100px;
+    left: 50%;
+}
+
+.Right h1{
+    font-size: 40px;
+}
+.Right h1 span{
+    font-weight: 300;
+}
+.Right button{
+    padding: 18px 35px;
+    background: transparent;
+    border: 1px solid black;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+#Btn{
+    margin-top: 70px;
+    margin-left: 10px;
+    background-color: #fa8669;
+    color: white;
+    border: 0px;
+}
+
+.Container1{
+    text-align: center;
+}
+
+.Container1 #p{
+    font-size: 14px;
+    padding-top: 120px;
+    padding-bottom: 70px;
+    font-weight: 400;
+}
+
+.Container1 h1{
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.Container1 p{
+    font-size: 24px;
+    width: 80%;
+    margin: 0px 10%;
+}
+
+.Container2{
+    padding-top: 100px;
+    width: 96%;
+    margin: 0px 2%;
+    display: inline-flex; 
+    text-align: left;
+}
+
+.left2{
+    width: 50%;
+    text-align: center;
+}
+
+.right2{
+    padding: 20px 0px;
+    width: 50%;
+}
+.right2 h1{
+    font-size: 45px;
+    font-weight: 400;
+}
+.right2 p{
+    font-size: 22px;
+    font-weight: 300;
+    color: gray;
+}
+
+#P2{
+    font-size: 19px;
+    color: black;
+    font-weight: 300;
+}
+
+#left3{
+    padding-left: 40px;
+}
+
+#underline{
+    color: #ff8562;
+    cursor: pointer;
+}
+
+#Left4 img{
+    padding-top: 60px;
+}
+
+.Container3{
+    width: 70%;
+    margin: 100px 15%;
+    box-shadow: 5px 5px 50px black;
+}
+
+main p{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+}
+#Black{
+    font-weight: 700;
+}
+.Craft{
+    padding: 14px 60px;
+    font-size: 22px;
+    cursor: pointer;
+    margin-bottom: 100px;
+}
+
+.Article2{
+    width: 100%;
+    background-color: #efefef;
+    text-align: center;
+}
+.Container4{
+    width: 94%;
+    margin: 0px 3%;
+    padding-top: 100px;
+}
+.Container4 h1{
+    font-size: 72px;
+    font-weight: 300;
+    margin-bottom: 0px;
+}
+
+.Container5{
+    padding-top: 80px;
+    width: 94%;
+    margin: 0px 3%;
+}
+
+.Box1{
+    display: inline-flex;
+    width: 100%;
+}
+.Box1 .P4{
+    width: 50%;
+    padding: 0px 60px;
+    padding-left: 0px;
+    color: gray;
+    line-height: 38px;
+} 
+.P5{
+    width: 50%;
+    font-size: 19px;
+}
+
+.Container6{
+    padding-top: 100px;
+    text-align: center;
+}
+.Container5 h2{
+    font-size: 48px;
+    font-weight: 300;
+}
+
+.Container7{
+    margin-top: 200px;
+    background: url('../Img/Naramata.webp') center / cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 70vh;
+}
+.Container7 p{
+    color: white;
+    font-size: 18px;
+    padding-top: 60vh;
+    padding-left: 100px;
+}
+.Left2{
+    width: 100%;
+}
+
+#H2{
+    font-size: 32px;
+    font-weight: 400;
+}
+
+#P8{
+    font-size: 14px;
+}
+
+/* ===Container8=== */
+.Container8{
+
+    width: 96%;
+    margin: 0px 2%;
+}
+
+.Row{    
+    padding-top: 100px;
+    display: inline-flex;
+    width: 100%;
+}
+.Place{
+    width: 33%;
+}
+.Icon{
+    width: 100px;
+    height: 100px;
+}
+
+.Btn8{
+    margin-top: 50px;
+    width: 350px;
+    height: 60px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: 0px;
+    transition: 300ms;
+    margin-bottom: 100px;
+}
+.Btn8:hover{
+    background-color: #ff8562;
+    box-shadow: 0px 0px 10px black, 0px 0px 25px black;
+}
+
+.Container9{
+    width: 100%;
+    height: 70vh;
+    background: url('../Img/a9f54f771e3ee258fc39c73e8c267c83.jpg') center / cover;
+    background-attachment: fixed;
+}
+
+.Container9 p{
+    color: white;
+    text-align: left;
+    padding-left: 50px;
+    padding-top: 30vh;
+}
+
+.Article3{
+    background-color: #2a2a2a;
+    text-align: center;
+}
+
+#H10{
+    font-size: 70px;
+    color: white;
+    font-weight: 400;
+    margin-top: 0px;
+    padding-top: 120px;
+}
+
+#P10{
+    font-size: 24px;
+    color: white;
+}
+
+.Container10{
+    width: 94%;
+    margin: 0px 3%;
+}
+
+.Row10{
+    width: 100%;
+    display: inline-flex;
+    text-align: left;
+    padding-top: 120px;
+}
+
+#Hleft10{
+    font-size: 38px;
+    color: white;
+    font-weight: 400;
+}
+
+.Left10{
+    width: 50%;
+}
+
+.Right10{
+    width: 50%;
+}
+
+#Gray10{
+    font-size: 20px;
+    color:gray;
+}
+
+.Article4{
+    background-color: rgb(239, 239, 239);
+    padding-top: 180px;
+    padding-bottom: 90px;
+    text-align: center;
+}
+
+#TitleArt4{
+    font-size: 78px;
+    font-weight: 500;
+}
+
+#PArt4{
+    font-size: 24px;
+    line-height: 50px;
+}
+
+.Container11{
+    display: inline-flex;
+    width: 94%;
+    margin: 0px 3%;
+}
+
+
+.container111{
+    width: 30%;
+    background-color: #fff;
+    margin: auto;
+}
+
+.container112{
+    width: 30%;
+    margin: auto;
+    background-color: #fff;
+}
+
+.container113{
+    width: 30%;
+    margin: auto;
+    background-color: #fff;
+}
+
+.cont11Img{
+    width: 100%;
+    opacity: 1;
+    transition: 500ms;
+}
+.container111:hover .cont11Img{
+    background-color: rgba(218,218,218,0.449);
+    opacity: .75;
+}
+
+.container112:hover .cont11Img{
+    background-color: rgba(218,218,218,0.449);
+    opacity: .75;
+}
+
+.container113:hover .cont11Img{
+    background-color: rgba(218,218,218,0.449);
+    opacity: .75;
+}
+.textBox{
+    padding: 20px 40px;
+    font-size: 22px;
+}
+
+.Cont12Tit{
+    padding-top: 100px;
+    font-size: 44px;
+    font-weight: 400;
+}
+
+.Cont12P{
+    font-size: 18px;
+    padding-bottom: 60px;
+}
+
+.Container12{
+    width: 94%;
+    margin: 0px 3%;
+}
+
+.RowCont12{
+    width: 100%;
+    display: inline-flex;
+    margin: auto;
+}
+
+.Cont12Box{
+    width: 30%;
+    margin: auto;
+    background-color: #fff;
+}
+
+.ImgBox12 img{
+    width: 100%;
+    opacity: 1;
+    transition: 500ms;
+}
+
+.Cont12Box:hover .ImgBox12 img{
+    opacity: .75;
+    background-color: rgba(218,218,218,0.449);
+}
+
+.TextBox12{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#Btn12{
+    margin-top: 50px;
+    padding: 20px 70px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: black;
+    color: white;
+    border: none;
+    transition: 500ms;
+}
+
+#Btn12:hover{
+    background-color: #ff8562;
+    box-shadow: 0px 0px 10px black, 0px 0px 25px black;
+}
+
+.Article5{
+    width: 100%;
+    background-color: #ffa282;
+    text-align: center;
+}
+
+.Article5 h1{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin: 0px;
+    font-size: 36px;
+    color: black;
+    font-weight: 400;
+}
+
+.ArtBtn6{
+    width: 300px;
+    height: 80px;
+    border: 0px;
+    background-color: #fff;
+    color: rgb(209, 209, 9);
+    font-size: 24px;
+    font-weight: 700;
+
+    border-radius: 40px;
+    cursor: pointer;
+    transition: 500ms;
+    margin-bottom: 100px;
+}
+
+.ArtBtn6:hover{
+    box-shadow: 0px 0px 10px 10px rgb(255, 217, 0);
+    background-color: black;
+}
